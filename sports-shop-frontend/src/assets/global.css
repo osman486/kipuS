@@ -1,0 +1,12 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+button { transition: all 0.3s ease; }
+button:hover { transform: scale(1.02); }
+@media (max-width: 768px) {
+  .product-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) !important; }
+  nav a, nav button { font-size: 12px !important; margin: 0 5px !important; }
+}

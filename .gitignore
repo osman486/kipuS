@@ -1,0 +1,10 @@
+# Бэкенд Python
+sports-shop-frontend/backend/venv/
+sports-shop-frontend/backend/__pycache__/
+sports-shop-frontend/backend/*.pyc
+sports-shop-frontend/backend/uploads/
+
+# Фронтенд Vue
+sports-shop-frontend/node_modules/
+sports-shop-frontend/dist/
+.vscode/
